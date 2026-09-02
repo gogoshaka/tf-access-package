@@ -1,0 +1,9 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Contains real tenant and directory object IDs.
+terraform.tfvars
+!terraform.tfvars.example

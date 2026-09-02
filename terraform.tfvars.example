@@ -1,0 +1,10 @@
+tenant_id = "00000000-0000-0000-0000-000000000000"
+
+access_package_id           = "00000000-0000-0000-0000-000000000000"
+service_principal_object_id = "00000000-0000-0000-0000-000000000000"
+catalog_resource_id         = "00000000-0000-0000-0000-000000000000"
+catalog_scope_id            = "00000000-0000-0000-0000-000000000000"
+app_role_id                 = "00000000-0000-0000-0000-000000000000"
+
+# Graph returns the all-zero ID for a catalog role until it is bound to an access package.
+catalog_role_id = "00000000-0000-0000-0000-000000000000"
