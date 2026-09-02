@@ -22,12 +22,6 @@ tested end to end against a real tenant.
 
 ## Authentication
 
-**Azure CLI authentication does not work for this configuration.** The Azure CLI
-first-party app (`04b07795-8ddb-461a-bbee-02f9e1bf7b46`) is not pre-authorised
-for any entitlement management Graph scope, so every
-`identityGovernance/entitlementManagement/*` call returns
-`403 UnAuthorized` — regardless of the signed-in user's directory roles or
-licensing. Decoding the token's `scp` claim confirms the scope is simply absent.
 
 Use a service principal with these Graph **application** permissions, admin
 consented:
